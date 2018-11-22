@@ -1,9 +1,9 @@
-import FetchApi from './fetchApi.js';
+import FetchApi from './services/fetchApi.js';
 import Canvas from './elements/canvas.js';
 import {
     mapBpiOnPoint,
     drawChart,
-} from './helper.js';
+} from './services/helper.js';
 
 (async function(){
     const query = await FetchApi.get('https://api.coindesk.com/v1/bpi/historical/close.json');

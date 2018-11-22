@@ -1,5 +1,5 @@
-import Point from "./elements/point.js";
-import Tooltip from "./elements/tooltip.js";
+import Point from "../elements/point.js";
+import Tooltip from "../elements/tooltip.js";
 
 const mapBpiOnPoint = (bpi) => {
     const point = new Point();
