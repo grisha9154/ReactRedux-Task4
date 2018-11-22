@@ -1,5 +1,5 @@
 import FetchApi from './fetchApi.js';
-import Canvas from './canvas.js';
+import Canvas from './elements/canvas.js';
 import {
     mapBpiOnPoint,
     drawChart,
